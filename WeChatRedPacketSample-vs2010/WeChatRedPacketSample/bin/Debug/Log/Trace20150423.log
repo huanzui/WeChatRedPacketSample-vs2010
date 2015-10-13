@@ -1,0 +1,21 @@
+﻿2015-04-23 12:06:55: 异常：内部错误：System.Exception: 无法找到微信支付证书
+   在 WeChatRedPacketSample.CertificateStoreFinder.Find() 位置 e:\ProjectFile\源码资料\微信现金红包接口示例\WeChatRedPacketSample-master\WeChatRedPacketSample\CertificateStoreFinder.cs:行号 25
+   在 WeChatRedPacketSample.WeChatClient.<PostAsync>d__0.MoveNext() 位置 e:\ProjectFile\源码资料\微信现金红包接口示例\WeChatRedPacketSample-master\WeChatRedPacketSample\WeChatClient.cs:行号 27
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 WeChatRedPacketSample.RedPacketService.<SendAsync>d__0.MoveNext() 位置 e:\ProjectFile\源码资料\微信现金红包接口示例\WeChatRedPacketSample-master\WeChatRedPacketSample\RedPacketService.cs:行号 67 
+堆栈：   在 System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   在 System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   在 System.Threading.Tasks.Task`1.get_Result()
+   在 WeChatRedPacketSample.Program.Main(String[] args) 位置 e:\ProjectFile\源码资料\微信现金红包接口示例\WeChatRedPacketSample-master\WeChatRedPacketSample\Program.cs:行号 43
+内容：发生一个或多个错误。
+来源：mscorlib
+2015-04-23 14:02:30: 异常：内部错误： 
+堆栈：   在 WeChatRedPacketSample.CertificateStoreFinder.Find() 位置 e:\ProjectFile\源码资料\微信现金红包接口示例\WeChatRedPacketSample-master\WeChatRedPacketSample\CertificateStoreFinder.cs:行号 25
+   在 WeChatRedPacketSample.WeChatClient.PostAsync(String data) 位置 e:\ProjectFile\源码资料\微信现金红包接口示例\WeChatRedPacketSample-master\WeChatRedPacketSample\WeChatClient.cs:行号 27
+   在 WeChatRedPacketSample.RedPacketService.SendAsync(RedPacket request) 位置 e:\ProjectFile\源码资料\微信现金红包接口示例\WeChatRedPacketSample-master\WeChatRedPacketSample\RedPacketService.cs:行号 67
+   在 WeChatRedPacketSample.Program.Main(String[] args) 位置 e:\ProjectFile\源码资料\微信现金红包接口示例\WeChatRedPacketSample-master\WeChatRedPacketSample\Program.cs:行号 43
+内容：无法找到微信支付证书
+来源：WeChatRedPacketSample

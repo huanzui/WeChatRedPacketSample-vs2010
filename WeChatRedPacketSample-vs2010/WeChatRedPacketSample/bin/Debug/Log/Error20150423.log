@@ -1,0 +1,28 @@
+﻿2015-04-23 12:06:10: 异常：1
+2015-04-23 12:06:19: 异常：2
+2015-04-23 12:06:39: DictionaryToXml：<xml>
+<act_name>obt发红包</act_name>
+<client_ip>127.0.0.1</client_ip>
+<max_value>100</max_value>
+<mch_billno>10014725201504230346279789</mch_billno>
+<min_value>100</min_value>
+<nick_name>显示在红包上的发送者名称</nick_name>
+<nonce_str>f9335ae822fb4062bac5f84d835105a1</nonce_str>
+<re_openid>ojlO7s6HPDoU5tOLPMDe8tMCMh_w</re_openid>
+<remark>好红包备注</remark>
+<send_name>显示在红包上的发送者名称</send_name>
+<total_amount>100</total_amount>
+<total_num>1</total_num>
+<wishing>恭喜发财！</wishing>
+<wxappid>wxd7a79dc70db80f6e</wxappid>
+<sign>A8786AD6D6BA2C4E02E475D5C967DE88</sign>
+</xml>
+
+2015-04-23 14:01:42: 异常：1
+2015-04-23 14:01:43: 异常：2
+2015-04-23 14:01:45: DictionaryToXml：<xml>
+<act_name>obt发红包</act_name><client_ip>127.0.0.1</client_ip><max_value>100</max_value><mch_billno>10014725201504230176796433</mch_billno><min_value>100</min_value><nick_name>大话O2O红包君</nick_name><nonce_str>35c895db3db94bfeaeed8835c68b4d7f</nonce_str><re_openid>ojlO7s6HPDoU5tOLPMDe8tMCMh_w</re_openid><remark>好红包备注</remark><send_name>大话O2O红包君</send_name><total_amount>100</total_amount><total_num>1</total_num><wishing>恭喜发财！</wishing><wxappid>wxd7a79dc70db80f6e</wxappid><sign>FD1E4AC292F00F940B515574E489F458</sign></xml>
+
+2015-04-23 14:02:00: DictionaryToXml：<xml>
+<act_name>obt发红包</act_name><client_ip>127.0.0.1</client_ip><max_value>100</max_value><mch_billno>10014725201504230176796433</mch_billno><min_value>100</min_value><nick_name>大话O2O红包君</nick_name><nonce_str>477010d4805749d089970b664a814ff4</nonce_str><re_openid>ojlO7s6HPDoU5tOLPMDe8tMCMh_w</re_openid><remark>好红包备注</remark><send_name>大话O2O红包君</send_name><total_amount>100</total_amount><total_num>1</total_num><wishing>恭喜发财！</wishing><wxappid>wxd7a79dc70db80f6e</wxappid><sign>73E1E475D3209A45C08D3167A88C5017</sign></xml>
+

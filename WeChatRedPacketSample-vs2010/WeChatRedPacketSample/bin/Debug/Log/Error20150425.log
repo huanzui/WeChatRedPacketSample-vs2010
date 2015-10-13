@@ -1,0 +1,16 @@
+﻿2015-04-25 11:41:20: DictionaryToXml：<xml>
+<act_name>obt发红包</act_name><client_ip>127.0.0.1</client_ip><max_value>100</max_value><mch_billno>10014725201504250777275557</mch_billno><mch_id>10014725</mch_id><min_value>100</min_value><nick_name>大话O2O红包君</nick_name><nonce_str>be838d58e5cd42eba75dd0743adde0c0</nonce_str><re_openid>ofQeZjuMHXCS6EATfKiSliDoSCHc</re_openid><remark>好红包备注</remark><send_name>大话O2O红包君</send_name><total_amount>100</total_amount><total_num>1</total_num><wishing>恭喜发财！</wishing><wxappid>wx1516a853dcfc3ad8</wxappid><sign>DEE3921E57B2245562C4387B7335008F</sign></xml>
+
+2015-04-25 11:41:20: m_WeChatClient.PostAsync：<xml>
+        <debug>DebugWeChatClient</debug>
+        <return_code><![CDATA[SUCCESS]]></return_code>
+        <return_msg><![CDATA[发放成功.]]></return_msg>
+        <result_code><![CDATA[SUCCESS]]></result_code>
+        <err_code><![CDATA[0]]></err_code>
+        <err_code_des><![CDATA[发放成功.]]></err_code_des>
+        <mch_billno><![CDATA[1233006302201503230000000001]]></mch_billno>
+        <mch_id>1233006302</mch_id>
+        <wxappid><![CDATA[wxc5e8d0e4826b8dad]]></wxappid>
+        <re_openid><![CDATA[ooECzjkJonPgp6b_g91ehHst-Op8]]></re_openid>
+        <total_amount>375</total_amount>
+        </xml>
